@@ -26,15 +26,17 @@ div nav ul li{
     font-size: 20px;
     margin-top: 2em;
     font-weight: bolder;
-    text-decoration: underline;
+   
 }
 
 div nav ul li:hover{
     cursor: pointer;
+    
 }
 
 .home{
-    color: #46361c;
+    color: #7e0500;
+    text-decoration: underline;
 }
 
 .logo{
@@ -48,10 +50,40 @@ div nav ul li:hover{
 }
 
 .sect{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+   margin: 10em 0 0 9em;
+}
+
+.sect p{
+    margin-top: 1em;
+}
+
+.sect button{
+    margin-top: 2em;
+    padding: 8px 25px;
+    border-radius: 2em;
+    border: none;
+    font-size: 1rem;
+    background-color: #d9b287;
+    font-weight: bold;
+}
+
+.sect button:hover{
+    cursor: pointer;
+    background-color: #e6c7a7;
+}
+
+img{
+    margin-left: 8em;
+    margin-top: 2em;
+    
+}
+
+main section p{
+    margin: 2em 0 0 35.5em;
+    font-size: 17px;
+}
+
+main section h2{
+    margin: -11em 0 0 20em;
+    font-size: 30px;
 }
