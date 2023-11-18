@@ -78,6 +78,8 @@ img{
     
 }
 
+
+
 main section p{
     margin: 2em 0 0 35.5em;
     font-size: 17px;
@@ -86,4 +88,40 @@ main section p{
 main section h2{
     margin: -11em 0 0 20em;
     font-size: 30px;
+}
+
+.puppies{
+    background-color: #f4f6f8;
+}
+
+.puppies h2{
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 2em;
+    font-size: 28px;
+   
+}
+.cc{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: auto auto auto auto/* repeat(auto-fit, minmax(300px, 1fr)) */;
+    width: 100%;
+   /*  margin: 3em 2em 0 3em; */
+    padding: 20px;
+    
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+    box-shadow: 5px 15px 20px -10px rgba(0, 0, 0, 0.79); 
+    max-width: 350px;
+    cursor: pointer;
+    transition:  0.2s ease-in;
+    overflow: hidden;
+    height: 450px;
+    margin: 1em 0 0 5em;
+    margin-top: 5em;
 }
