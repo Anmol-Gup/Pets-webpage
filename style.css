@@ -95,20 +95,21 @@ main section h2{
 }
 
 .puppies h2{
-    text-align: center;
-    margin-top: 5em;
-    padding-top: 2em;
-    font-size: 28px;
-   
+    padding-top: 2em; 
+    font-size: 30px;
+    margin-left: 25em; 
+    width: 100%;
+    
 }
 .cc{
     display: grid;
-    gap: 2em;
-    grid-template-columns: auto auto auto auto/* repeat(auto-fit, minmax(300px, 1fr)) */;
+    gap: 3em;
+    grid-template-columns: /* auto auto auto auto */ repeat(auto-fit, minmax(300px, 1fr)) ;
     width: 100%;
    /*  margin: 3em 2em 0 3em; */
-    padding: 20px;
-    
+  /*   padding: 20px; */
+    margin-top: 8em;
+    margin-left: -11.5em;
 }
 
 .container{
@@ -117,11 +118,49 @@ main section h2{
     flex-direction: column;
     border-radius: 0.5em;
     box-shadow: 5px 15px 20px -10px rgba(0, 0, 0, 0.79); 
-    max-width: 350px;
-    cursor: pointer;
-    transition:  0.2s ease-in;
-    overflow: hidden;
-    height: 450px;
-    margin: 1em 0 0 5em;
-    margin-top: 5em;
+    height: 400px;
+ /*    margin: 1em 0 0 5em; */
+    margin-top: 13em;
+   
+}
+
+.container img{
+    margin: 0;
+
+}
+
+.pup{
+    height: 300px;
+}
+
+.container .cat{
+    margin-top: 1em;
+    margin-left: 1em;
+    height: 280px;
+}
+
+.container .dog{
+    height: 265px;
+    margin-top: 2em;
+}
+
+.container h3{
+    margin: 1em 0 0 0;
+    font-size: 23px;
+    color: rgb(41, 38, 38);
+    text-align: center;
+}
+
+.container button{
+    margin: 1em 0 0 6em;
+    padding: 10px 15px;
+    border-radius: 1em;
+    border: 3px solid gainsboro;
+    width: 50%;
+   background-color: #fff;
+}
+
+.container button:hover{
+    border: none;
+    background-color: rgba(204, 116, 72, 0.3);
 }
