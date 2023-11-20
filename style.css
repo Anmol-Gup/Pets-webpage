@@ -118,10 +118,10 @@ main section h2{
     flex-direction: column;
     border-radius: 0.5em;
     box-shadow: 5px 15px 20px -10px rgba(0, 0, 0, 0.79); 
-    height: 400px;
+    height: 430px;
  /*    margin: 1em 0 0 5em; */
     margin-top: 13em;
-   
+   margin-bottom: 5em;
 }
 
 .container img{
@@ -157,10 +157,14 @@ main section h2{
     border-radius: 1em;
     border: 3px solid gainsboro;
     width: 50%;
-   background-color: #fff;
+   background-color: #fff; 
+   font-size: 15px;
+   font-weight: bold;
+   color: rgb(41, 38, 38);
 }
 
 .container button:hover{
-    border: none;
-    background-color: rgba(204, 116, 72, 0.3);
+     /* border: none; */
+    background-color: rgb(240, 182, 161);
+    cursor: pointer;
 }
