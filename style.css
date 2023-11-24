@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    color: #000;
+}
+
 
 .header{
-    background-image: url('be.jpeg');
+    background-image: url('img/be.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -53,8 +57,15 @@ div nav ul li:hover{
    margin: 10em 0 0 9em;
 }
 
+.sect .heading{
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+}
+
 .sect p{
     margin-top: 1em;
+    color: #000;
 }
 
 .sect button{
@@ -65,6 +76,7 @@ div nav ul li:hover{
     font-size: 1rem;
     background-color: #ecc094;
     font-weight: bold;
+    color: #000;
 }
 
 .sect button:hover{
@@ -86,8 +98,8 @@ main section p{
 }
 
 main section h2{
-    margin: -11em 0 0 20em;
-    font-size: 30px;
+    margin: -11em 0 0 19em;
+    font-size: 32px;
 }
 
 .puppies{
@@ -118,7 +130,7 @@ main section h2{
     flex-direction: column;
     border-radius: 0.5em;
     box-shadow: 5px 15px 20px -10px rgba(0, 0, 0, 0.79); 
-    height: 430px;
+    height: 450px;
  /*    margin: 1em 0 0 5em; */
     margin-top: 13em;
    margin-bottom: 5em;
@@ -171,8 +183,9 @@ main section h2{
 
 .shelter h2{
     text-align: center;
-    font-size: 26px;
+    font-size: 28px;
     margin-top: 3em;
+    font-weight: bold;
 }
 
 .donate{
@@ -186,7 +199,7 @@ main section h2{
 }
 
 .donate h3{
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 1em;
 }
 
@@ -212,28 +225,28 @@ main section h2{
 .toy{
     float: right;
     font-size: 20px;
-    margin: -11em 13em 0 0;
+    margin: -13em 13em 0 0;
     display: flex;
 }
 
 .transport{
     float: right;
     font-size: 20px;
-    margin: -4em 24em 0 0;
+    margin: -5em 24em 0 0;
     display: flex;
 }
 
 .med{
     float: right;
     font-size: 20px;
-    margin: -11em 26em 0 0;
+    margin: -13em 26em 0 0;
     display: flex;
 }
 
 .area{
     float: right;
     font-size: 20px;
-    margin: -4em 13em 0 0;
+    margin: -5em 13em 0 0;
     display: flex;
    
 }
@@ -253,7 +266,7 @@ main section h2{
 
 .gallery{
     display: flex;
-  
+    margin-bottom: 3em;
 }
 
 .column {

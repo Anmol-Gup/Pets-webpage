@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4377c0b254.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon copy.ico">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
     <title>Pet's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.6/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   <div class="header"> 
@@ -22,7 +24,7 @@
     </nav>
 
     <div class="sect">
-        <h1>Find your forever friend,<br> Adopt and bring home happiness.</h1>
+        <h1 class="heading">Find your forever friend,<br> Adopt and bring home happiness.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
            quae iure numquam obcaecati veniam quasi aperiam!</p>
         <button class="adopt">Adopt now</button>
@@ -32,7 +34,7 @@
 
   <main class="main">
     <section>
-        <img src="dogCat.png" alt="dogCat">
+        <img src="img/dogCat.png" alt="dogCat">
         <h2>About<br> our animal shelter :-</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
           quae iure numquam obcaecati veniam quasi aperiam!
@@ -46,17 +48,17 @@
     <div class="cc">
     <h2>Our friends who<br> are looking for a house</h2>
     <div class="container">
-        <img class="cat" src="cat.png" alt="">
+        <img class="cat" src="img/cat.png" alt="">
         <h3>Gracie</h3>
         <button>See more</button>
     </div>
     <div class="container">
-        <img class="pup" src="pup.png" alt="">
+        <img class="pup" src="img/pup.png" alt="">
         <h3>Pumpkin</h3>
         <button>See more</button>
     </div>
     <div class="container">
-        <img class="dog" src="dog.png" alt="">
+        <img class="dog" src="img/dog.png" alt="">
         <h3>Tiger</h3>
         <button>See more</button>
     </div>
@@ -109,33 +111,62 @@
   </section>
 
   <section>
-    <h2 class="head">Photo Gallery of some Pets</h2>
-    <div class="gallery">
+    <h2 class="head">Our Photo Gallery of some Pets</h2>
+  <div class="gallery">
       <div class="column">
-      <img src="Screenshot (224).png" alt="">
-      <img src="Screenshot (208).png" alt="">
-      <img src="Screenshot (209).png" alt="">
-      <img class="black" src="Screenshot (210).png" alt="">
-      <img class="little" src="Screenshot (214).png" alt="">
-     </div>
+      <img src="img/one.png" alt="">
+      <img src="img/two.png" alt="">
+      <img src="img/three.png" alt="">
+      <img class="black" src="img/black.png" alt="">
+      <img class="little" src="img/little.png" alt="">
+   </div>
+
     <div class="column col">
-      <img class="grey" src="Screenshot (223).png" alt="">
-      <img src="Screenshot (213).png" alt="">
-      <img src="Screenshot (211).png" alt="">
-      <img class="chihu" src="Screenshot (215).png" alt="">
-      <img src="Screenshot (217).png" alt="">
+      <img class="grey" src="img/grey.png" alt="">
+      <img src="img/four.png" alt="">
+      <img src="img/five.png" alt="">
+      <img class="chihu" src="img/chihu.png" alt="">
+      <img src="img/six.png" alt="">
+      <img src="img/ten.png" alt="">
     </div>
+
     <div class="column col">
-      <img class="caty" src="Screenshot (220).png" alt="">
-      <img class="caty" src="Screenshot (216).png" alt="">
-      <img src="Screenshot (221).png" alt="">
-      <img class="kat" src="Screenshot (222).png" alt="">
-      <img src="Screenshot (212).png" alt="">
-      <img class="kit" src="Screenshot (218).png" alt="">
+      <img class="caty" src="img/caty.png" alt="">
+      <img class="caty" src="img/seven.png" alt="">
+      <img src="img/eight.png" alt="">
+      <img class="kat" src="img/kat.png" alt="">
+      <img src="img/nine.png" alt="">
+      <img class="kit" src="img/kit.png" alt="">
     </div>
     </div>
   </section>
       
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <aside>
+      <i class="fa-solid fa-paw logo"><span class="spa">Adopt Pets</span></i>
+      
+    </aside> 
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Legal</header> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
 
 </body>
 </html>
