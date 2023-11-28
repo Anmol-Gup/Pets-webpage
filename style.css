@@ -90,6 +90,57 @@ img{
     
 }
 
+@media all and (max-width: 600px){
+    .header{
+        float: left;
+        margin: 0;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo{
+        margin: 0;
+        margin-top: 0.5em;
+        font-size: 1em;
+    }
+
+    .spa{
+        font-size: 12px;
+    }
+
+    div nav ul li{
+        width: 50%;
+        list-style: none;
+        font-size: 13px;
+        margin-top: 0.5em;
+        font-weight: normal;
+        
+    }
+
+    .peta{
+        margin-left: 1em;
+    }
+
+    .sect .heading{
+        font-size: 20px;
+        margin: -5em 0 0 -6em;
+        width: 100%;
+    }
+
+    .sect p{
+        font-size: 12px;
+        margin: 0 0 0 -10em;
+    }
+
+    .sect button{
+        margin: 1em 0 0 -8em;
+    }
+
+    body, html{
+        margin: 0;
+    }
+}
 
 
 main section p{
@@ -102,6 +153,30 @@ main section h2{
     font-size: 32px;
 }
 
+@media all and (max-width: 600px){
+    main section{
+        margin: 0;
+        
+    }
+
+    main section p{
+        margin: 1em 0 3em 2em;
+        font-size: 15px;
+        width: 80%;
+    }
+
+    main section h2{
+        margin: 1em 0 0 1em;
+        font-size: 22px;
+    }
+
+    main section img{
+        margin: 0;
+        padding-top: 2em;
+    }
+}
+
+
 .puppies{
     background-color: #f4f6f8;
 }
@@ -113,6 +188,7 @@ main section h2{
     width: 100%;
     
 }
+
 .cc{
     display: grid;
     gap: 3em;
@@ -133,7 +209,7 @@ main section h2{
     height: 450px;
  /*    margin: 1em 0 0 5em; */
     margin-top: 13em;
-   margin-bottom: 5em;
+    margin-bottom: 5em;
 }
 
 .container img{
@@ -169,16 +245,58 @@ main section h2{
     border-radius: 1em;
     border: 3px solid gainsboro;
     width: 50%;
-   background-color: #fff; 
-   font-size: 15px;
-   font-weight: bold;
-   color: rgb(41, 38, 38);
+    background-color: #fff; 
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(41, 38, 38);
 }
 
 .container button:hover{
      /* border: none; */
     background-color: rgb(240, 182, 161);
     cursor: pointer;
+}
+
+@media all and (max-width: 600px){
+    .puppies{
+        margin: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .puppies h2{
+        margin-left: 0;
+    }
+
+   .cc{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        width: 80%;
+        margin-left: 2em;
+      gap: 2em;
+    }
+
+    .container{
+        margin: 0;
+        height: 400px;
+        margin-bottom: 2em;
+    }
+
+    .pup{
+        height: 270px;
+    }
+    
+    .container .cat{
+        margin-top: 1em;
+        margin-left: 1em;
+        height: 250px;
+    }
+    
+    .container .dog{
+        height: 240px;
+        margin-top: 2em;
+        
+    }
 }
 
 .shelter h2{
@@ -255,6 +373,24 @@ main section h2{
     color: #d1663f;
     font-size: 1.5em;
     margin-bottom: 0.5em;
+}
+
+@media all and (max-width: 600px){
+    .shelter h2{
+        font-size: 25px;
+    }
+
+    .donate{
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .icons section{
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
 }
 
 .head{
