@@ -386,10 +386,39 @@ main section h2{
         margin: 0;
     }
 
+    .donate h3{
+        font-size: 20px;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .donate p{
+        font-size: 14px;
+        margin-left: 1.5em;
+    }
+
+    .donate button{
+        font-size: 13px;
+        margin-left: 1.5em;
+    }
+
+   
     .icons section{
         width: 100%;
         float: left;
-        margin: 0;
+        margin: 1em 0 0 3em;
+    }
+
+    .icons .transport{
+        margin: -4em 0 0 12em;
+    }
+
+    .icons .area{
+        margin: -4em 0 0 12em;
+    }
+
+    .icons .toy{
+        margin: 2.5em 0 0 3em;
     }
 }
 
@@ -411,9 +440,9 @@ main section h2{
   }
 
 .column img{
-     width: 60%; 
+    width: 60%; 
     margin-top: 8px;
-   vertical-align: middle; 
+    vertical-align: middle; 
    /*  height: 100%; */
 }
 
@@ -421,4 +450,32 @@ main section h2{
     margin-left: -15em;
 }
 
+@media all and (max-width: 600px){
+    .head{
+        margin: 25em 0 0 4em;
+        font-size: 23px;
+        width: 50%;
+   
+    }
 
+    .gallery{
+        display: block;
+       
+    }
+
+    .col{
+        margin-left: 0;
+        /* display: flex;
+        flex-direction: column;
+        width: 50%;
+        flex: 50%; */
+    }
+
+
+    .column img{
+        width: 80%; 
+        margin: 1.5em 0 0 2em;
+    }
+
+  
+}
