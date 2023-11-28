@@ -168,11 +168,13 @@ main section h2{
     main section h2{
         margin: 1em 0 0 1em;
         font-size: 22px;
+        width: 90%;
     }
 
     main section img{
         margin: 0;
         padding-top: 2em;
+        width: 90%;
     }
 }
 
@@ -272,7 +274,7 @@ main section h2{
         padding: 0;
         margin-bottom: 0;
         width: 80%;
-        margin-left: 2em;
+        margin-left: 2.5em;
       gap: 2em;
     }
 
@@ -296,6 +298,14 @@ main section h2{
         height: 240px;
         margin-top: 2em;
         
+    }
+
+    .container button{
+        margin-left: 5em;
+    }
+
+    .container h3{
+        margin-left: -0.5em;
     }
 }
 
@@ -378,6 +388,8 @@ main section h2{
 @media all and (max-width: 600px){
     .shelter h2{
         font-size: 25px;
+        width: 90%;
+        margin-left: 1em;
     }
 
     .donate{
@@ -390,11 +402,13 @@ main section h2{
         font-size: 20px;
         margin-left: 1em;
         margin-top: 1em;
+        width: 90%;
     }
 
     .donate p{
         font-size: 14px;
         margin-left: 1.5em;
+        width: 90%;
     }
 
     .donate button{
@@ -411,14 +425,22 @@ main section h2{
 
     .icons .transport{
         margin: -4em 0 0 12em;
+        width: 30%;
     }
 
     .icons .area{
         margin: -4em 0 0 12em;
+        width: 30%;
+        
     }
 
     .icons .toy{
         margin: 2.5em 0 0 3em;
+        width: 80%;
+    }
+
+    .icons .med{
+        width: 80%;
     }
 }
 
