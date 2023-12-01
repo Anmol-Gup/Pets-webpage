@@ -27,7 +27,7 @@ div nav ul{
 }
 
 div nav ul li{
-    width: 10%;
+    width: 9%;
     list-style: none;
     font-size: 20px;
     margin-top: 2em;
@@ -42,12 +42,16 @@ div nav ul li:hover{
 .home{
     color: #7e0500;
     text-decoration: underline;
-    margin-left: 2.5em;
+    /* margin-left: 2.5em; */
+}
+
+.peta{
+    margin-right: 2em;
 }
 
 .logo{
     font-size: 3em;
-    margin-right: 10em;
+    margin-right: 12em;
     margin-top: 0.5em;
 }
 
@@ -55,11 +59,7 @@ div nav ul li:hover{
     font-size: 20px;
 }
 
-div.navbar {
-    padding: 0;
-    width: 88%;
-    margin: 0;
-}
+
 
 
 
