@@ -247,17 +247,20 @@ main section h2{
 
 .pup{
     height: 300px;
+    object-fit: contain;
 }
 
 .containers .cat{
     margin-top: 1em;
     margin-left: 1em;
     height: 280px;
+    object-fit: contain;
 }
 
 .containers .dog{
     height: 265px;
     margin-top: 2em;
+    object-fit: contain;
 }
 
 .containers h3{
@@ -290,6 +293,7 @@ main section h2{
         margin: 0;
         width: 100%;
         height: 50%;
+        
     }
     .puppies h2{
         margin-left: 0;
@@ -302,28 +306,32 @@ main section h2{
         width: 80%;
         margin-left: 2em;
         gap: 2em;
+       
     }
 
     .containers{
         margin: 0;
         height: 400px;
         margin-bottom: 2em;
+       
     }
 
     .pup{
         height: 270px;
+        object-fit: contain;
     }
     
     .containers .cat{
         margin-top: 1em;
         margin-left: 1em;
         height: 250px;
+        object-fit: contain;
     }
     
     .containers .dog{
         height: 240px;
         margin-top: 2em;
-        
+        object-fit: contain;
     }
 
     .containers button{
