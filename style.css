@@ -22,8 +22,8 @@ div nav ul{
     flex-direction: row;
     justify-content: flex-end;
     color: white;
-    margin-right: 1em; 
-    
+    /* margin-right: 1em;  */
+    /* width: 100%; */
 }
 
 div nav ul li{
@@ -47,6 +47,7 @@ div nav ul li:hover{
 
 .peta{
     margin-right: 2em;
+    width: 10%;
 }
 
 .logo{
@@ -58,10 +59,6 @@ div nav ul li:hover{
 .spa{
     font-size: 20px;
 }
-
-
-
-
 
 .sect{
    margin: 10em 0 0 9em;
@@ -101,10 +98,42 @@ div nav ul li:hover{
     
 }
 
-.nav-container .checkbox{
-    display: none;
-}
 
+
+
+
+
+@media all and (max-width: 1024px){
+    div nav ul li{
+        width: 100%;
+        
+        font-size: 18px;
+      
+       
+    }
+
+    div nav ul{
+        width: 100%;
+    }
+
+   .logo{
+    margin-right: 6em;
+    margin-left: 2em;
+   }
+
+   .peta{
+    width: 100%;
+   }
+
+   
+
+    .cc{
+       
+        grid-template-columns: auto auto auto auto ;
+        
+    }
+    
+}
 
 
 @media all and (max-width: 600px){
