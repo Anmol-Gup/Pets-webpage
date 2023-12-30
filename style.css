@@ -98,11 +98,6 @@ div nav ul li:hover{
     
 }
 
-
-
-
-
-
 @media all and (max-width: 1024px){
     div nav ul li{
         width: 100%;
@@ -127,12 +122,6 @@ div nav ul li:hover{
 
    
 
-    .cc{
-       
-        grid-template-columns: auto auto auto auto ;
-        
-    }
-    
 }
 
 
@@ -163,19 +152,6 @@ div nav ul li:hover{
     div nav ul li{
         display: none;
     }
-
-    /* div nav ul li{
-        width: 50%;
-        list-style: none;
-        font-size: 13px;
-        margin-top: 0.5em;
-        font-weight: normal;
-        
-    }
-
-    .peta{
-        margin-left: 1em;
-    } */
 
     .sect .heading{
         font-size: 20px;
@@ -235,6 +211,27 @@ main section h2{
 }
 
 
+@media all and (max-width: 1024px){
+    .dogCat{
+        margin-left: -1em;
+        width: 50%;
+        margin-top: 8em;
+    }
+
+    .main section h2{
+        margin-top: -15em;
+        margin-left: 16em;
+    }
+
+    .main section p{
+        margin-left: 30em;
+    }
+
+    .main{
+        height: 430px;
+    }
+}
+
 .puppies{
     background-color: #f4f6f8;
 }
@@ -244,7 +241,7 @@ main section h2{
     font-size: 30px;
     margin-left: 25em; 
     width: 100%;
-    
+    text-align: center;
 }
 
 .cc{
@@ -315,6 +312,27 @@ main section h2{
      /* border: none; */
     background-color: rgb(240, 182, 161);
     cursor: pointer;
+}
+
+@media all and (max-width:  1024px){
+    .cc{
+        margin-top: 2em;
+       grid-template-columns: auto auto auto auto ;
+        
+    }
+
+    .puppies h2{
+        margin-left: 15em;
+        margin-bottom: 2em;
+        text-align: center;
+        height: 10%;
+    }
+
+    .cc .containers{
+        margin-left: -1em;
+        width: 100%;
+    }
+    
 }
 
 @media all and (max-width: 600px){
@@ -448,6 +466,34 @@ main section h2{
     margin-bottom: 0.5em;
 }
 
+@media all and (max-width:  1024px){
+    .shelter h2{
+        margin-top: 2em;
+    }
+
+    .donate{
+        margin-left: 10em;
+    }
+
+    .med{
+        margin: -17em 16em 0 0;
+       
+    }
+
+    .toy{
+        margin: -17em 6em 0 0;
+    }
+
+    .transport{
+        margin: -8em 14em 0 0;
+    }
+
+    .area{
+        margin: -8em 5em 0 0;
+    }
+}
+
+
 @media all and (max-width: 600px){
     .shelter h2{
         font-size: 23px;
@@ -537,6 +583,10 @@ main section h2{
     margin-left: -13em;
 }
 
+@media all and (max-width:  1024px){
+
+}
+
 @media all and (max-width: 600px){
     .head{
         margin: 25em 0 0 4em;
@@ -552,16 +602,11 @@ main section h2{
 
     .col{
         margin-left: 0;
-        /* display: flex;
-        flex-direction: column;
-        width: 50%;
-        flex: 50%; */
     }
 
 
     .column img{
-        width: 80%; 
-       /*  margin: 1.5em 22em 0 0; */
+        width: 80%;
     }
 
   
