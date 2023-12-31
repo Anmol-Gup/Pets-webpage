@@ -184,6 +184,29 @@ main section h2{
     font-size: 32px;
 }
 
+
+
+@media all and (max-width: 1024px){
+    .dogCat{
+        margin-left: -1em;
+        width: 50%;
+        margin-top: 8em;
+    }
+
+    .main section h2{
+        margin-top: -15em;
+        margin-left: 16em;
+    }
+
+    .main section p{
+        margin-left: 30em;
+    }
+
+    .main{
+        height: 470px;
+    }
+}
+
 @media all and (max-width: 600px){
     main section{
         margin: 0;
@@ -210,27 +233,6 @@ main section h2{
     }
 }
 
-
-@media all and (max-width: 1024px){
-    .dogCat{
-        margin-left: -1em;
-        width: 50%;
-        margin-top: 8em;
-    }
-
-    .main section h2{
-        margin-top: -15em;
-        margin-left: 16em;
-    }
-
-    .main section p{
-        margin-left: 30em;
-    }
-
-    .main{
-        height: 430px;
-    }
-}
 
 .puppies{
     background-color: #f4f6f8;
@@ -317,8 +319,9 @@ main section h2{
 @media all and (max-width:  1024px){
     .cc{
         margin-top: 2em;
-       grid-template-columns: auto auto auto auto ;
-        
+        grid-template-columns: auto auto auto auto ;
+        gap: 20em;
+        width: 10%;
     }
 
     .puppies h2{
@@ -329,9 +332,12 @@ main section h2{
     }
 
     .cc .containers{
-        margin-left: -1em;
-        width: 100%;
+        margin-left: -38em;
+        /* width: 100%; */
+        width: 270px;
     }
+
+  
     
 }
 
@@ -366,6 +372,7 @@ main section h2{
     .pup{
         height: 270px;
         object-fit: contain;
+        
     }
     
     .containers .cat{
@@ -584,7 +591,9 @@ main section h2{
 }
 
 @media all and (max-width:  1024px){
-
+    .col{
+        margin-left: -8em;
+    }
 }
 
 @media all and (max-width: 600px){
