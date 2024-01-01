@@ -131,7 +131,7 @@ div nav ul li:hover{
         margin: 0;
         background-size: cover;
         width: 100%;
-        height: 100%;
+        height: 380px;
         
     }
 
@@ -213,13 +213,14 @@ main section h2{
         
     }
 
-    main section p{
-        margin: 1em 0 3em 2em;
+    .main section p{
+        float: left;
+        margin: 1em 0 3em 1.5em;
         font-size: 15px;
         width: 80%;
     }
 
-    main section h2{
+    .main section h2{
         margin: 1em 0 0 1em;
         font-size: 22px;
         width: 90%;
@@ -343,57 +344,18 @@ main section h2{
 
 @media all and (max-width: 600px){
     .puppies{
-        margin: 0;
-        width: 100%;
-        height: 50%;
-        
+        float: left;
     }
+
     .puppies h2{
-        margin-left: 0;
-    }
-
-   .cc{
-        margin: 0;
-        padding: 0;
-        margin-bottom: 0;
-        width: 80%;
-        margin-left: 2em;
-        gap: 2em;
        
     }
-
-    .containers{
-        margin: 0;
-        height: 400px;
-        margin-bottom: 2em;
-       
-    }
-
-    .pup{
-        height: 270px;
-        object-fit: contain;
-        
-    }
+    .cc{
     
-    .containers .cat{
-        margin-top: 1em;
-        margin-left: 1em;
-        height: 250px;
-        object-fit: contain;
-    }
-    
-    .containers .dog{
-        height: 240px;
-        margin-top: 2em;
-        object-fit: contain;
-    }
-
-    .containers button{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
         margin-left: 5em;
-    }
-
-    .containers h3{
-        margin-left: -0.5em;
+        gap: 0.5em;
     }
 }
 
@@ -503,6 +465,7 @@ main section h2{
 
 @media all and (max-width: 600px){
     .shelter h2{
+        float: left;
         font-size: 23px;
         width: 90%;
        /*  margin-left: 0.5em; */
@@ -597,11 +560,12 @@ main section h2{
 }
 
 @media all and (max-width: 600px){
-    .head{
-        margin: 25em 0 0 4em;
+    .gal h2{
+        float: left;
         font-size: 23px;
-        width: 50%;
-   
+        width: 70%;
+        margin-left: 2em;
+        text-align: center;
     }
 
     .gallery{
@@ -616,6 +580,11 @@ main section h2{
 
     .column img{
         width: 80%;
+        float: left;
+    }
+
+    .kit {
+        margin-bottom: 2em;
     }
 
   
