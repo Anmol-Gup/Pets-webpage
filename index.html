@@ -1,177 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4377c0b254.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/favicon.ico">
-    <title>Pet's Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.6/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4377c0b254.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <title>Pet's Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.6/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
 </head>
+
 <body>
-<div class="header"> 
-    
-
-    <nav>
-        <ul>
-          <i class="fa-solid fa-paw logo"><span class="spa">Adopt Pets</span></i> 
-          <li class="home">Home</li>
-          <li class="peta">Pet Adoption</li>
-          <li>Gallery</li>
-          <li>About Us</li>
-        </ul>
+  <div class="header">
+    <nav class="pc_menu">
+      <i class="fa-solid fa-paw logo"><span class="spa">Adopt Pets</span></i>
+      <div class="mobile_nav">
+        <i class="fa-solid fa-bars hamburger px-2" style="font-size: 2rem; color: #fff;"></i>
+        <i class="fa-solid fa-xmark close px-2" style="font-size: 2rem; color: #fff;"></i>
+      </div>
+      <ul class="menu_bar">
+        <li class="home">Home</li>
+        <li class="peta">Pet Adoption</li>
+        <li>Gallery</li>
+        <li>About Us</li>
+      </ul>
     </nav>
-
-    <div class="sect">
-        <h1 class="heading">Find your forever friend,<br> Adopt and bring home happiness.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
-           quae iure numquam obcaecati veniam quasi aperiam!</p>
-        <button class="adopt">Adopt now</button>
+    <div class="mobile_menu bg-neutral">
+      <ul>
+        <li class="menu_link">Home</li>
+        <li class="menu_link">Pet Adoption</li>
+        <li class="menu_link">Gallery</li>
+        <li class="menu_link">About Us</li>
+      </ul>
     </div>
-    
+    <div class="sect">
+      <h1 class="heading">Find your forever friend,<br> Adopt and bring home happiness.</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos
+        necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
+        quae iure numquam obcaecati veniam quasi aperiam!</p>
+      <button class="adopt">Adopt now</button>
+    </div>
+
   </div>
 
 
-  
-  <main class="main">
+
+  <main class="main py-8 px-12">
     <section>
-        <img class="dogCat" src="img/dogCat.png" alt="dogCat">
+      <img class="dogCat" src="img/dogCat.png" alt="dogCat">
+      <div class="content">
         <h2>About<br> our animal shelter :-</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque
+          quos
+          necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
           quae iure numquam obcaecati veniam quasi aperiam!
-          <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
-          quae iure numquam obcaecati veniam quasi aperiam Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Quo exercitationem vel sit dicta doloremque quos necessitatibus quod rerum optio<br> voluptatum, sunt, voluptas impedit
-          quae iure numquam obcaecati veniam quasi aperiam!</p>
+          <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem vel sit<br> dicta
+          doloremque quos necessitatibus quod rerum optio voluptatum, sunt, voluptas impedit<br>
+          quae iure numquam obcaecati veniam quasi aperiam Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit.
+          Quo exercitationem vel sit dicta doloremque quos necessitatibus quod rerum optio<br> voluptatum, sunt,
+          voluptas
+          impedit
+          quae iure numquam obcaecati veniam quasi aperiam!
+        </p>
+      </div>
     </section>
   </main>
 
-   <section class="puppies">
-      <div class="cc">
+  <section class="puppies py-12">
+    <div class="cc">
       <h2>Our friends who<br> are looking for a house</h2>
-      <div class="containers cats">
+      <div class="cat_images py-12">
+        <div class="containers cats">
           <img class="cat" src="img/cat.png" alt="">
           <h3>Gracie</h3>
           <button>See more</button>
-      </div>
-      <div class="containers">
+        </div>
+        <div class="containers">
           <img class="pup" src="img/pup.png" alt="">
           <h3>Pumpkin</h3>
           <button>See more</button>
-      </div>
-      <div class="containers">
+        </div>
+        <div class="containers">
           <img class="dog" src="img/dog.png" alt="">
           <h3>Tiger</h3>
           <button>See more</button>
+        </div>
       </div>
-  
-  </div>
-  </section> 
+    </div>
+  </section>
 
 
-  <section class="shelter">
+  <section class="shelter p-12">
     <h2>You can also help our shelter or donate!</h2>
-
-    <section class="donate">
-      <h3>You can donate to our animal shelter to save the lives of homeless animals.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit, doloremque odit<br> autem commodi rem adipisci laborum error repudiandae nisi, facere dignissimos, cumque labore!<br> Saepe non placeat repellat voluptate ducimus?</p>
-      <button><i class="fa-solid fa-circle-dollar-to-slot don"></i> Donate Now</button>
-    </section>
-
-
-  <div class="icons">
-    <section class="med">
-      <div>
-        <i class="fa-solid fa-pills"></i><br>
-        <span>Medicine</span>
+    <div class="shelter_content">
+      <section class="donate">
+        <h3>You can donate to our animal shelter to save the lives of homeless animals.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit, doloremque odit<br> autem commodi
+          rem adipisci laborum error repudiandae nisi, facere dignissimos, cumque labore!<br> Saepe non placeat repellat
+          voluptate ducimus?</p>
+        <button><i class="fa-solid fa-circle-dollar-to-slot don"></i> Donate Now</button>
+      </section>
+      <div class="icons">
+        <section class="med">
+          <div>
+            <i class="fa-solid fa-pills"></i><br>
+            <span>Medicine</span>
+          </div>
+        </section>
+  
+        <section class="transport">
+          <div>
+            <i class="fa-solid fa-van-shuttle"></i><br>
+            <span>Transportation</span>
+          </div>
+        </section>
+  
+        <section class="toy">
+          <div>
+            <i class="fa-solid fa-bowling-ball"></i><br>
+            <span>Toys/Collars</span>
+          </div>
+        </section>
+  
+        <section class="area">
+          <div>
+            <i class="fa-solid fa-house"></i><br>
+            <span>Sleeping area</span>
+          </div>
+        </section>
       </div>
-    </section>
-
-    <section class="transport">
-     <div>
-        <i class="fa-solid fa-van-shuttle"></i><br>
-        <span>Transportation</span>
-      </div>
-    </section>
-
-    <section class="toy">
-      <div>
-        <i class="fa-solid fa-bowling-ball"></i><br>
-        <span>Toys/Collars</span>
-      </div>
-    </section>
-
-    <section class="area">
-      <div>
-        <i class="fa-solid fa-house"></i><br>
-        <span>Sleeping area</span>
-      </div>
-    </section>
-  </div>
+    </div>
   </section>
-
-    
-  </section>
+  <!-- </section> -->
 
   <section class="gal">
     <h2 class="head">Our Photo Gallery of some Pets</h2>
-  <div class="gallery">
+    <div class="gallery">
       <div class="column">
-      <img src="img/one.png" alt="">
-      <img src="img/two.png" alt="">
-      <img src="img/three.png" alt="">
-      <img class="black" src="img/black.png" alt="">
-      <img class="little" src="img/little.png" alt="">
-   </div>
+        <img src="img/one.png" alt="">
+        <img src="img/two.png" alt="">
+        <img src="img/three.png" alt="">
+        <img class="black" src="img/black.png" alt="">
+        <img class="little" src="img/little.png" alt="">
+      </div>
 
-    <div class="column col">
-      <img class="grey" src="img/grey.png" alt="">
-      <img src="img/four.png" alt="">
-      <img src="img/five.png" alt="">
-      <img class="chihu" src="img/chihu.png" alt="">
-      <img src="img/six.png" alt="">
-      <img src="img/ten.png" alt="">
-    </div>
+      <div class="column col">
+        <img class="grey" src="img/grey.png" alt="">
+        <img src="img/four.png" alt="">
+        <img src="img/five.png" alt="">
+        <img class="chihu" src="img/chihu.png" alt="">
+        <img src="img/six.png" alt="">
+        <img src="img/ten.png" alt="">
+      </div>
 
-    <div class="column col cols">
-      <img class="caty" src="img/caty.png" alt="">
-    
-      <img src="img/eight.png" alt="">
-      <img class="kat" src="img/kat.png" alt="">
-      <img src="img/nine.png" alt="">
-      <img class="kit" src="img/kit.png" alt="">
-    </div>
+      <div class="column col cols">
+        <img class="caty" src="img/caty.png" alt="">
+
+        <img src="img/eight.png" alt="">
+        <img class="kat" src="img/kat.png" alt="">
+        <img src="img/nine.png" alt="">
+        <img class="kit" src="img/kit.png" alt="">
+      </div>
     </div>
   </section>
-      
-  <footer class="footer p-10 bg-neutral text-neutral-content">
+
+  <footer class="py-8 px-8 bg-neutral text-neutral-content">
     <aside>
       <i class="fa-solid fa-paw logo"><span class="spa">Adopt Pets</span></i>
-      
-    </aside> 
-    <nav>
-      <header class="footer-title">Services</header> 
-      <a class="link link-hover">Branding</a>
-      <a class="link link-hover">Design</a>
-      <a class="link link-hover">Marketing</a>
-      <a class="link link-hover">Advertisement</a>
-    </nav> 
-    <nav>
-      <header class="footer-title">Company</header> 
-      <a class="link link-hover">About us</a>
-      <a class="link link-hover">Contact</a>
-      <a class="link link-hover">Jobs</a>
-      <a class="link link-hover">Press kit</a>
-    </nav> 
-    <nav>
-      <header class="footer-title">Legal</header> 
-      <a class="link link-hover">Terms of use</a>
-      <a class="link link-hover">Privacy policy</a>
-      <a class="link link-hover">Cookie policy</a>
-    </nav>
-  </footer> 
-
+    </aside>
+    <div class="links container">
+      <nav>
+        <header class="footer-title">Services</header>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <header class="footer-title">Company</header>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <header class="footer-title">Legal</header>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="main.js"></script>
 </body>
 </html>
